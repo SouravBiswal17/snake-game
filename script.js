@@ -18,7 +18,7 @@ const changeFoodposition=() =>{
 // after the game is over reloding the page
 const handleGameOver = () =>{
     clearInterval(setIntervalId);
-    alert("game over press ok....");
+     window.open("index1.html");
     location.reload();
 }
 // motion of snake
